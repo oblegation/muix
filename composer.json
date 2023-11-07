@@ -1,0 +1,15 @@
+{
+    "name": "oblegation/muix",
+    "description": "The entrance of obligation web framework",
+    "type": "project",
+    "license": "apache-2.0",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    },
+    "require": {
+        "muyomu/vessel": "1.0.13"
+    }
+}

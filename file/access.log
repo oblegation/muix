@@ -1,0 +1,287 @@
+2023-11-06 13:44:58 pid:1 Error: Call to a member function getWebContainer() on null in C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\utility\VesselUtility.php:12
+Stack trace:
+#0 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\Vessel.php(73): muyomu\vessel\utility\VesselUtility::run()
+#1 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Connection\TcpConnection.php(646): muyomu\vessel\Vessel::muyomu\vessel\{closure}()
+#2 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Events\Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#3 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(1485): Workerman\Events\Select->loop()
+#4 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(1402): Workerman\Worker::forkWorkersForWindows()
+#5 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(560): Workerman\Worker::forkWorkers()
+#6 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\Vessel.php(87): Workerman\Worker::runAll()
+#7 C:\Users\Administrator\Desktop\dfd\muix\boot\index.php(18): muyomu\vessel\Vessel::run()
+#8 {main}
+2023-11-06 13:50:07 pid:1 Error: Typed static property muyomu\vessel\Vessel::$test must not be accessed before initialization in C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\utility\VesselUtility.php:13
+Stack trace:
+#0 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\Vessel.php(77): muyomu\vessel\utility\VesselUtility::runVessel()
+#1 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Connection\TcpConnection.php(646): muyomu\vessel\Vessel::muyomu\vessel\{closure}()
+#2 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Events\Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#3 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(1485): Workerman\Events\Select->loop()
+#4 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(1402): Workerman\Worker::forkWorkersForWindows()
+#5 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(560): Workerman\Worker::forkWorkers()
+#6 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\Vessel.php(91): Workerman\Worker::runAll()
+#7 C:\Users\Administrator\Desktop\dfd\muix\boot\index.php(18): muyomu\vessel\Vessel::run()
+#8 {main}
+2023-11-06 14:26:21 pid:1 TypeError: muyomu\vessel\Test::getContainer(): Argument #1 ($containerId) must be of type string, null given, called in C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\utility\VesselUtility.php on line 19 and defined in C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\Test.php:78
+Stack trace:
+#0 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\utility\VesselUtility.php(19): muyomu\vessel\Test->getContainer()
+#1 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\Vessel.php(83): muyomu\vessel\utility\VesselUtility::runVessel()
+#2 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Connection\TcpConnection.php(646): muyomu\vessel\Vessel::muyomu\vessel\{closure}()
+#3 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Events\Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#4 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(1485): Workerman\Events\Select->loop()
+#5 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(1402): Workerman\Worker::forkWorkersForWindows()
+#6 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(560): Workerman\Worker::forkWorkers()
+#7 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\Vessel.php(101): Workerman\Worker::runAll()
+#8 C:\Users\Administrator\Desktop\dfd\muix\boot\index.php(22): muyomu\vessel\Vessel::run()
+#9 {main}
+2023-11-06 14:29:40 pid:1 Error: Typed static property muyomu\vessel\Vessel::$webRoute must not be accessed before initialization in C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\utility\VesselUtility.php:17
+Stack trace:
+#0 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\Vessel.php(83): muyomu\vessel\utility\VesselUtility::runVessel()
+#1 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Connection\TcpConnection.php(646): muyomu\vessel\Vessel::muyomu\vessel\{closure}()
+#2 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Events\Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#3 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(1485): Workerman\Events\Select->loop()
+#4 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(1402): Workerman\Worker::forkWorkersForWindows()
+#5 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(560): Workerman\Worker::forkWorkers()
+#6 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\Vessel.php(101): Workerman\Worker::runAll()
+#7 C:\Users\Administrator\Desktop\dfd\muix\boot\index.php(18): muyomu\vessel\Vessel::run()
+#8 {main}
+2023-11-06 14:44:21 pid:1 TypeError: muyomu\vessel\Test::getContainer(): Return value must be of type object, array returned in C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\Test.php:82
+Stack trace:
+#0 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\utility\VesselUtility.php(19): muyomu\vessel\Test->getContainer()
+#1 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\Vessel.php(82): muyomu\vessel\utility\VesselUtility::runVessel()
+#2 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Connection\TcpConnection.php(646): muyomu\vessel\Vessel::muyomu\vessel\{closure}()
+#3 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Events\Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#4 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(1485): Workerman\Events\Select->loop()
+#5 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(1402): Workerman\Worker::forkWorkersForWindows()
+#6 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(560): Workerman\Worker::forkWorkers()
+#7 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\Vessel.php(100): Workerman\Worker::runAll()
+#8 C:\Users\Administrator\Desktop\dfd\muix\boot\index.php(18): muyomu\vessel\Vessel::run()
+#9 {main}
+2023-11-06 15:01:11 pid:1 ReflectionException: Function () does not exist in C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\ContainerCore.php:38
+Stack trace:
+#0 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\ContainerCore.php(38): ReflectionFunction->__construct()
+#1 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\ContainerCore.php(85): muyomu\vessel\ContainerCore->init()
+#2 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\ContainerCore.php(125): muyomu\vessel\ContainerCore->registerContainer()
+#3 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\Vessel.php(73): muyomu\vessel\ContainerCore->registerVessel()
+#4 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(2494): muyomu\vessel\Vessel::muyomu\vessel\{closure}()
+#5 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(1484): Workerman\Worker->run()
+#6 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(1402): Workerman\Worker::forkWorkersForWindows()
+#7 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(560): Workerman\Worker::forkWorkers()
+#8 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\Vessel.php(100): Workerman\Worker::runAll()
+#9 C:\Users\Administrator\Desktop\dfd\muix\boot\index.php(18): muyomu\vessel\Vessel::run()
+#10 {main}
+2023-11-06 15:01:21 pid:1 ReflectionException: Function () does not exist in C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\ContainerCore.php:38
+Stack trace:
+#0 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\ContainerCore.php(38): ReflectionFunction->__construct()
+#1 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\ContainerCore.php(85): muyomu\vessel\ContainerCore->init()
+#2 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\ContainerCore.php(125): muyomu\vessel\ContainerCore->registerContainer()
+#3 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\Vessel.php(73): muyomu\vessel\ContainerCore->registerVessel()
+#4 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(2494): muyomu\vessel\Vessel::muyomu\vessel\{closure}()
+#5 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(1484): Workerman\Worker->run()
+#6 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(1402): Workerman\Worker::forkWorkersForWindows()
+#7 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(560): Workerman\Worker::forkWorkers()
+#8 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\Vessel.php(100): Workerman\Worker::runAll()
+#9 C:\Users\Administrator\Desktop\dfd\muix\boot\index.php(18): muyomu\vessel\Vessel::run()
+#10 {main}
+2023-11-07 10:33:54 pid:1 ReflectionException: Function () does not exist in C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\ContainerCore.php:38
+Stack trace:
+#0 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\ContainerCore.php(38): ReflectionFunction->__construct()
+#1 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\ContainerCore.php(85): muyomu\vessel\ContainerCore->init()
+#2 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\ContainerCore.php(125): muyomu\vessel\ContainerCore->registerContainer()
+#3 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\Vessel.php(73): muyomu\vessel\ContainerCore->registerVessel()
+#4 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(2494): muyomu\vessel\Vessel::muyomu\vessel\{closure}()
+#5 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(1484): Workerman\Worker->run()
+#6 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(1402): Workerman\Worker::forkWorkersForWindows()
+#7 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(560): Workerman\Worker::forkWorkers()
+#8 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\Vessel.php(100): Workerman\Worker::runAll()
+#9 C:\Users\Administrator\Desktop\dfd\muix\boot\index.php(18): muyomu\vessel\Vessel::run()
+#10 {main}
+2023-11-07 10:37:22 pid:1 TypeError: muyomu\vessel\ContainerCore::getContainer(): Return value must be of type object, array returned in C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\ContainerCore.php:97
+Stack trace:
+#0 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\utility\VesselUtility.php(19): muyomu\vessel\ContainerCore->getContainer()
+#1 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\Vessel.php(82): muyomu\vessel\utility\VesselUtility::runVessel()
+#2 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Connection\TcpConnection.php(646): muyomu\vessel\Vessel::muyomu\vessel\{closure}()
+#3 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Events\Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#4 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(1485): Workerman\Events\Select->loop()
+#5 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(1402): Workerman\Worker::forkWorkersForWindows()
+#6 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(560): Workerman\Worker::forkWorkers()
+#7 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\Vessel.php(100): Workerman\Worker::runAll()
+#8 C:\Users\Administrator\Desktop\dfd\muix\boot\index.php(18): muyomu\vessel\Vessel::run()
+#9 {main}
+2023-11-07 11:16:58 pid:1 TypeError: muyomu\vessel\ContainerCore::getContainer(): Return value must be of type object, array returned in C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\ContainerCore.php:97
+Stack trace:
+#0 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\utility\VesselUtility.php(19): muyomu\vessel\ContainerCore->getContainer()
+#1 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\Vessel.php(82): muyomu\vessel\utility\VesselUtility::runVessel()
+#2 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Connection\TcpConnection.php(646): muyomu\vessel\Vessel::muyomu\vessel\{closure}()
+#3 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Events\Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#4 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(1485): Workerman\Events\Select->loop()
+#5 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(1402): Workerman\Worker::forkWorkersForWindows()
+#6 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(560): Workerman\Worker::forkWorkers()
+#7 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\Vessel.php(100): Workerman\Worker::runAll()
+#8 C:\Users\Administrator\Desktop\dfd\muix\boot\index.php(18): muyomu\vessel\Vessel::run()
+#9 {main}
+2023-11-07 11:21:38 pid:1 TypeError: muyomu\vessel\ContainerCore::getContainer(): Return value must be of type object, array returned in C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\ContainerCore.php:97
+Stack trace:
+#0 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\utility\VesselUtility.php(19): muyomu\vessel\ContainerCore->getContainer()
+#1 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\Vessel.php(82): muyomu\vessel\utility\VesselUtility::runVessel()
+#2 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Connection\TcpConnection.php(646): muyomu\vessel\Vessel::muyomu\vessel\{closure}()
+#3 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Events\Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#4 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(1485): Workerman\Events\Select->loop()
+#5 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(1402): Workerman\Worker::forkWorkersForWindows()
+#6 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(560): Workerman\Worker::forkWorkers()
+#7 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\Vessel.php(100): Workerman\Worker::runAll()
+#8 C:\Users\Administrator\Desktop\dfd\muix\boot\index.php(18): muyomu\vessel\Vessel::run()
+#9 {main}
+2023-11-07 11:23:44 pid:1 TypeError: muyomu\vessel\ContainerCore::getContainer(): Return value must be of type object, array returned in C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\ContainerCore.php:97
+Stack trace:
+#0 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\utility\VesselUtility.php(19): muyomu\vessel\ContainerCore->getContainer()
+#1 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\Vessel.php(82): muyomu\vessel\utility\VesselUtility::runVessel()
+#2 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Connection\TcpConnection.php(646): muyomu\vessel\Vessel::muyomu\vessel\{closure}()
+#3 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Events\Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#4 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(1485): Workerman\Events\Select->loop()
+#5 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(1402): Workerman\Worker::forkWorkersForWindows()
+#6 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(560): Workerman\Worker::forkWorkers()
+#7 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\Vessel.php(100): Workerman\Worker::runAll()
+#8 C:\Users\Administrator\Desktop\dfd\muix\boot\index.php(18): muyomu\vessel\Vessel::run()
+#9 {main}
+2023-11-07 11:28:35 pid:1 TypeError: muyomu\vessel\ContainerCore::getContainer(): Return value must be of type object, array returned in C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\ContainerCore.php:98
+Stack trace:
+#0 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\utility\VesselUtility.php(20): muyomu\vessel\ContainerCore->getContainer()
+#1 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\Vessel.php(85): muyomu\vessel\utility\VesselUtility::runVessel()
+#2 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Connection\TcpConnection.php(646): muyomu\vessel\Vessel::muyomu\vessel\{closure}()
+#3 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Events\Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#4 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(1485): Workerman\Events\Select->loop()
+#5 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(1402): Workerman\Worker::forkWorkersForWindows()
+#6 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(560): Workerman\Worker::forkWorkers()
+#7 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\Vessel.php(103): Workerman\Worker::runAll()
+#8 C:\Users\Administrator\Desktop\dfd\muix\boot\index.php(18): muyomu\vessel\Vessel::run()
+#9 {main}
+2023-11-07 11:29:01 pid:1 TypeError: muyomu\vessel\ContainerCore::getContainer(): Return value must be of type object, array returned in C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\ContainerCore.php:98
+Stack trace:
+#0 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\utility\VesselUtility.php(19): muyomu\vessel\ContainerCore->getContainer()
+#1 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\Vessel.php(85): muyomu\vessel\utility\VesselUtility::runVessel()
+#2 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Connection\TcpConnection.php(646): muyomu\vessel\Vessel::muyomu\vessel\{closure}()
+#3 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Events\Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#4 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(1485): Workerman\Events\Select->loop()
+#5 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(1402): Workerman\Worker::forkWorkersForWindows()
+#6 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(560): Workerman\Worker::forkWorkers()
+#7 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\Vessel.php(103): Workerman\Worker::runAll()
+#8 C:\Users\Administrator\Desktop\dfd\muix\boot\index.php(18): muyomu\vessel\Vessel::run()
+#9 {main}
+2023-11-07 11:29:23 pid:1 TypeError: muyomu\vessel\ContainerCore::getContainer(): Return value must be of type object, array returned in C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\ContainerCore.php:98
+Stack trace:
+#0 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\utility\VesselUtility.php(19): muyomu\vessel\ContainerCore->getContainer()
+#1 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\Vessel.php(85): muyomu\vessel\utility\VesselUtility::runVessel()
+#2 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Connection\TcpConnection.php(646): muyomu\vessel\Vessel::muyomu\vessel\{closure}()
+#3 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Events\Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#4 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(1485): Workerman\Events\Select->loop()
+#5 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(1402): Workerman\Worker::forkWorkersForWindows()
+#6 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(560): Workerman\Worker::forkWorkers()
+#7 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\Vessel.php(103): Workerman\Worker::runAll()
+#8 C:\Users\Administrator\Desktop\dfd\muix\boot\index.php(18): muyomu\vessel\Vessel::run()
+#9 {main}
+2023-11-07 11:29:54 pid:1 TypeError: muyomu\vessel\ContainerCore::getContainer(): Return value must be of type object, array returned in C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\ContainerCore.php:98
+Stack trace:
+#0 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\utility\VesselUtility.php(19): muyomu\vessel\ContainerCore->getContainer()
+#1 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\Vessel.php(85): muyomu\vessel\utility\VesselUtility::runVessel()
+#2 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Connection\TcpConnection.php(646): muyomu\vessel\Vessel::muyomu\vessel\{closure}()
+#3 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Events\Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#4 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(1485): Workerman\Events\Select->loop()
+#5 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(1402): Workerman\Worker::forkWorkersForWindows()
+#6 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(560): Workerman\Worker::forkWorkers()
+#7 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\Vessel.php(103): Workerman\Worker::runAll()
+#8 C:\Users\Administrator\Desktop\dfd\muix\boot\index.php(18): muyomu\vessel\Vessel::run()
+#9 {main}
+2023-11-07 12:18:49 pid:1 Error: Typed property app\controller\Index::$two must not be accessed before initialization in C:\Users\Administrator\Desktop\dfd\muix\app\controller\Index.php:15
+Stack trace:
+#0 [internal function]: app\controller\Index->index()
+#1 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\utility\VesselUtility.php(25): ReflectionMethod->invokeArgs()
+#2 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\Vessel.php(82): muyomu\vessel\utility\VesselUtility::runVessel()
+#3 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Connection\TcpConnection.php(646): muyomu\vessel\Vessel::muyomu\vessel\{closure}()
+#4 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Events\Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(1485): Workerman\Events\Select->loop()
+#6 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(1402): Workerman\Worker::forkWorkersForWindows()
+#7 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(560): Workerman\Worker::forkWorkers()
+#8 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\Vessel.php(100): Workerman\Worker::runAll()
+#9 C:\Users\Administrator\Desktop\dfd\muix\boot\index.php(18): muyomu\vessel\Vessel::run()
+#10 {main}
+2023-11-07 12:19:24 pid:1 Exception: no in C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\ContainerCore.php:113
+Stack trace:
+#0 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\utility\ReflectionTypeStrategy.php(105): muyomu\vessel\ContainerCore->getContainer()
+#1 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\utility\ReflectionTypeStrategy.php(64): muyomu\vessel\utility\ReflectionTypeStrategy->extracted()
+#2 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\utility\ReflectionTypeStrategy.php(40): muyomu\vessel\utility\ReflectionTypeStrategy->getInstanceWithInstance()
+#3 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\ioc\ProxyExecutor.php(32): muyomu\vessel\utility\ReflectionTypeStrategy->getInstance()
+#4 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\ContainerCore.php(71): muyomu\vessel\ioc\ProxyExecutor->getProxyInstance()
+#5 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\ContainerCore.php(86): muyomu\vessel\ContainerCore->init()
+#6 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\ContainerCore.php(126): muyomu\vessel\ContainerCore->registerContainer()
+#7 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\Vessel.php(73): muyomu\vessel\ContainerCore->registerVessel()
+#8 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(2494): muyomu\vessel\Vessel::muyomu\vessel\{closure}()
+#9 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(1484): Workerman\Worker->run()
+#10 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(1402): Workerman\Worker::forkWorkersForWindows()
+#11 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(560): Workerman\Worker::forkWorkers()
+#12 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\Vessel.php(100): Workerman\Worker::runAll()
+#13 C:\Users\Administrator\Desktop\dfd\muix\boot\index.php(18): muyomu\vessel\Vessel::run()
+#14 {main}
+2023-11-07 12:21:29 pid:1 Exception: no in C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\ContainerCore.php:113
+Stack trace:
+#0 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\utility\ReflectionTypeStrategy.php(105): muyomu\vessel\ContainerCore->getContainer()
+#1 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\utility\ReflectionTypeStrategy.php(64): muyomu\vessel\utility\ReflectionTypeStrategy->extracted()
+#2 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\utility\ReflectionTypeStrategy.php(40): muyomu\vessel\utility\ReflectionTypeStrategy->getInstanceWithInstance()
+#3 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\ioc\ProxyExecutor.php(32): muyomu\vessel\utility\ReflectionTypeStrategy->getInstance()
+#4 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\ContainerCore.php(71): muyomu\vessel\ioc\ProxyExecutor->getProxyInstance()
+#5 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\ContainerCore.php(86): muyomu\vessel\ContainerCore->init()
+#6 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\ContainerCore.php(126): muyomu\vessel\ContainerCore->registerContainer()
+#7 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\Vessel.php(73): muyomu\vessel\ContainerCore->registerVessel()
+#8 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(2494): muyomu\vessel\Vessel::muyomu\vessel\{closure}()
+#9 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(1484): Workerman\Worker->run()
+#10 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(1402): Workerman\Worker::forkWorkersForWindows()
+#11 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(560): Workerman\Worker::forkWorkers()
+#12 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\Vessel.php(100): Workerman\Worker::runAll()
+#13 C:\Users\Administrator\Desktop\dfd\muix\boot\index.php(18): muyomu\vessel\Vessel::run()
+#14 {main}
+2023-11-07 12:23:43 pid:1 Error: Typed static property muyomu\vessel\Vessel::$connection must not be accessed before initialization in C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\ContainerCore.php:97
+Stack trace:
+#0 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\utility\ReflectionTypeStrategy.php(105): muyomu\vessel\ContainerCore->getContainer()
+#1 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\utility\ReflectionTypeStrategy.php(64): muyomu\vessel\utility\ReflectionTypeStrategy->extracted()
+#2 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\utility\ReflectionTypeStrategy.php(40): muyomu\vessel\utility\ReflectionTypeStrategy->getInstanceWithInstance()
+#3 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\ioc\ProxyExecutor.php(32): muyomu\vessel\utility\ReflectionTypeStrategy->getInstance()
+#4 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\ContainerCore.php(71): muyomu\vessel\ioc\ProxyExecutor->getProxyInstance()
+#5 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\ContainerCore.php(86): muyomu\vessel\ContainerCore->init()
+#6 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\ContainerCore.php(127): muyomu\vessel\ContainerCore->registerContainer()
+#7 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\Vessel.php(75): muyomu\vessel\ContainerCore->registerVessel()
+#8 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(2494): muyomu\vessel\Vessel::muyomu\vessel\{closure}()
+#9 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(1484): Workerman\Worker->run()
+#10 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(1402): Workerman\Worker::forkWorkersForWindows()
+#11 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(560): Workerman\Worker::forkWorkers()
+#12 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\Vessel.php(102): Workerman\Worker::runAll()
+#13 C:\Users\Administrator\Desktop\dfd\muix\boot\index.php(18): muyomu\vessel\Vessel::run()
+#14 {main}
+2023-11-07 12:34:36 pid:1 TypeError: app\controller\Index::index(): Return value must be of type string, none returned in C:\Users\Administrator\Desktop\dfd\muix\app\controller\Index.php:17
+Stack trace:
+#0 [internal function]: app\controller\Index->index()
+#1 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\utility\VesselUtility.php(29): ReflectionMethod->invokeArgs()
+#2 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\Vessel.php(90): muyomu\vessel\utility\VesselUtility::runVessel()
+#3 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Connection\TcpConnection.php(646): muyomu\vessel\Vessel::muyomu\vessel\{closure}()
+#4 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Events\Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#5 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(1485): Workerman\Events\Select->loop()
+#6 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(1402): Workerman\Worker::forkWorkersForWindows()
+#7 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(560): Workerman\Worker::forkWorkers()
+#8 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\Vessel.php(108): Workerman\Worker::runAll()
+#9 C:\Users\Administrator\Desktop\dfd\muix\boot\index.php(18): muyomu\vessel\Vessel::run()
+#10 {main}
+2023-11-07 12:47:34 pid:1 Error: Class "muyomu\vessel\utility\BaseController" not found in C:\Users\Administrator\Desktop\dfd\muix\app\controller\Index.php:9
+Stack trace:
+#0 C:\Users\Administrator\Desktop\dfd\muix\vendor\composer\ClassLoader.php(576): include()
+#1 C:\Users\Administrator\Desktop\dfd\muix\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}()
+#2 C:\Users\Administrator\Desktop\dfd\muix\application.php(24): Composer\Autoload\ClassLoader->loadClass()
+#3 [internal function]: {closure}()
+#4 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\ContainerCore.php(69): ReflectionFunction->invokeArgs()
+#5 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\ContainerCore.php(102): muyomu\vessel\ContainerCore->init()
+#6 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\utility\VesselUtility.php(19): muyomu\vessel\ContainerCore->getContainer()
+#7 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\Vessel.php(87): muyomu\vessel\utility\VesselUtility::runVessel()
+#8 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Connection\TcpConnection.php(646): muyomu\vessel\Vessel::muyomu\vessel\{closure}()
+#9 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Events\Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#10 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(1485): Workerman\Events\Select->loop()
+#11 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(1402): Workerman\Worker::forkWorkersForWindows()
+#12 C:\Users\Administrator\Desktop\dfd\muix\vendor\workerman\workerman\Worker.php(560): Workerman\Worker::forkWorkers()
+#13 C:\Users\Administrator\Desktop\dfd\muix\vendor\muyomu\vessel\src\Vessel.php(105): Workerman\Worker::runAll()
+#14 C:\Users\Administrator\Desktop\dfd\muix\boot\index.php(18): muyomu\vessel\Vessel::run()
+#15 {main}
